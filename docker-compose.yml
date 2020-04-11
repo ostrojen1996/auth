@@ -25,8 +25,7 @@ services:
       - .:/var/www
     networks:
       - auth-network
-    
-    
+
   composer:
     image: composer:1.9.3
     command: install
